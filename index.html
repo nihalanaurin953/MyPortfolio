@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nihala Naurin | Full Stack Developer</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease-out forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    #scrollTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background-color: #ec4899;
+      color: white;
+      padding: 0.75rem;
+      border-radius: 9999px;
+      cursor: pointer;
+      z-index: 50;
+    }
+  </style>
+  
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-gray-800 bg-opacity-90 backdrop-blur-lg z-50 shadow-md transition-all duration-300" id="navbar">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+      <span class="font-bold text-lg bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-lg">Nihala Naurin</span>
+      
+        <div class="space-x-4">
+        <a href="#" class="text-pink-300 hover:text-white">Home</a>
+        <a href="#projects" class="text-pink-300 hover:text-white">Projects</a>
+        <a href="#skills" class="text-pink-300 hover:text-white">Skills</a>
+        <a href="#experience" class="text-pink-300 hover:text-white">Experience</a>
+        <a href="#education" class="text-pink-300 hover:text-white">Education</a>
+        <a href="#testimonials" class="text-pink-300 hover:text-white">Testimonials</a>
+        <a href="#contact" class="text-pink-300 hover:text-white">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="min-h-screen pt-20 flex flex-col items-center justify-center p-4 fade-in">
+    <div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-1 w-full max-w-4xl">
+      <div class="bg-gray-900 rounded-2xl p-8">
+        <div class="flex flex-col md:flex-row items-center gap-6 fade-in">
+  <img src="https://img.freepik.com/premium-photo/cute-chibi-programmer-with-laptop-code-display_1314184-14185.jpg?semt=ais_hybrid&w=740" alt="Nihala Naurin cartoon photo" class="w-32 h-32 rounded-full shadow-lg object-cover">
+  <div>
+    <h1 class="text-3xl md:text-4xl font-bold"><span class="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-lg">Nihala Naurin</span></h1>
+    <p class="text-xl text-pink-300">Full Stack Developer</p>
+    <p class="mt-2 text-gray-400">3+ years experience building responsive, interactive web apps. Skilled in HTML, CSS, JS, React, and currently upskilling in MEARN Stack.</p>
+    <div class="mt-4 flex gap-4">
+      <a href="https://github.com/nihalanaurin953" class="text-blue-400 hover:text-blue-600">GitHub</a>
+      <a href="https://linkedin.com/in/nihala-naurin1953" class="text-blue-400 hover:text-blue-600">LinkedIn</a>
+      <a href="mailto:nihalanaurin22@gmail.com" class="text-blue-400 hover:text-blue-600">Email</a>
+    </div>
+  </div>
+</div>
+
+<div id="projects" class="mt-10 fade-in">
+  <h2 class="text-2xl font-semibold text-pink-400 mb-4">Projects</h2>
+  <ul class="space-y-2">
+    <li><a href="https://nihalanaurin953.github.io/Elixir/" class="text-blue-300 hover:underline">Elixir</a></li>
+    <li><a href="https://nihalanaurin953.github.io/WeatherApp/" class="text-blue-300 hover:underline">Weather App</a></li>
+    <li><a href="https://nihalanaurin953.github.io/spotifyclone/" class="text-blue-300 hover:underline">Spotify Clone</a></li>
+  </ul>
+</div>
+
+<div id="skills" class="mt-10 fade-in">
+  <h2 class="text-2xl font-semibold text-pink-400 mb-4">Skills</h2>
+  <p class="text-gray-300">HTML, CSS, JavaScript, React.js, Angular, Bootstrap, Node.js, Express.js, MongoDB, Git, GitHub, REST APIs, AJAX</p>
+</div>
+
+<div id="experience" class="mt-10 fade-in">
+  <h2 class="text-2xl font-semibold text-pink-400 mb-4">Experience</h2>
+  <p class="text-gray-300 mb-2 font-semibold">Infosys Ltd. (2021 - Present)</p>
+  <ul class="list-disc list-inside text-gray-300">
+    <li>Developed and maintained internal web applications to enhance business processes.</li>
+    <li>Collaborated with cross-functional teams to implement efficient front-end solutions.</li>
+    <li>Optimized web performance to ensure seamless user experience.</li>
+  </ul>
+</div>
+
+<div id="education" class="mt-10 fade-in">
+  <h2 class="text-2xl font-semibold text-pink-400 mb-4">Education</h2>
+  <p class="text-gray-300">BCA - Mahatma Gandhi University (2018-2021)</p>
+  <p class="text-gray-300">Full Stack Development (MEARN) - Luminar Technolab (Ongoing)</p>
+</div>
+
+        <div id="testimonials" class="mt-10 fade-in">
+          <h2 class="text-2xl font-semibold text-pink-400 mb-4">Testimonials</h2>
+          <div class="space-y-4">
+            <div class="bg-gray-800 p-4 rounded-lg shadow">
+              <p class="text-gray-300 italic">"Nihala is a highly skilled developer with a great attitude and work ethic. She always goes above and beyond to deliver top-quality work."</p>
+              <p class="mt-2 text-pink-300 font-semibold">— Senior Manager, Infosys</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow">
+              <p class="text-gray-300 italic">"It was a pleasure working with Nihala on several web projects. Her attention to detail and problem-solving skills are excellent."</p>
+              <p class="mt-2 text-pink-300 font-semibold">— Project Lead, Open Source Team</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact" class="mt-10 fade-in">
+          <h2 class="text-2xl font-semibold text-pink-400 mb-4">Contact Me</h2>
+          <form class="space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-gray-800 text-white placeholder-gray-400" required>
+            <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-gray-800 text-white placeholder-gray-400" required>
+            <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg bg-gray-800 text-white placeholder-gray-400" required></textarea>
+            <button type="submit" class="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-lg">Send Message</button>
+          </form>
+        </div>
+
+        <div class="mt-10 text-sm text-gray-500 text-center fade-in">
+          <p>&copy; 2025 Nihala Naurin</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll To Top Button -->
+  <button id="scrollTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆</button>
+  <script>
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    window.onscroll = function () {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollTopBtn.style.display = "block";
+      } else {
+        scrollTopBtn.style.display = "none";
+      }
+    };
+    const navbar = document.getElementById('navbar');
+  let lastScrollTop = 0;
+  window.addEventListener("scroll", function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > lastScrollTop && scrollTop > 60) {
+      navbar.classList.add("py-1", "bg-gray-900");
+      navbar.classList.remove("py-3", "bg-gray-800");
+    } else {
+      navbar.classList.add("py-3", "bg-gray-800");
+      navbar.classList.remove("py-1", "bg-gray-900");
+    }
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  }, false);
+</script>
+</body>
+</html>
